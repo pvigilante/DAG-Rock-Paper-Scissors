@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>RPS</title>
+    <link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+    <section id="start">
+        <h1>Rock Paper Scissors</h1>
+        <button role="startgame">New Game</button>
+        <h3>Active Games</h3>
+        <select> 
+            <option>code here</option>
+        </select>
+    </section>
+    <section id="game">
+        <p id="gamelength"></p>
+        <h1 id="round">Round 1</h1>
+            <ul role="record">
+                
+            </ul>
+        
+        <ul role="options">
+            <li>
+                <button data-choice="0" role="choice">Rock</button>
+            </li>
+            <li>
+                <button data-choice="1" role="choice">Paper</button>
+            </li>
+            <li>
+                <button data-choice="2" role="choice">Scissors</button>
+            </li>
+        </ul>
+        
+        <aside id="gamestats">
+            
+            <h3>Email Code to Friend</h3>
+            <div id="player2code"></div>
+            <div id="gametype"></div>
+            <!--<a class="sms button">SMS</a>-->
+            <a id="emailcode" class="email button" href="">Email Code to Friend</a>
+        </aside>
+        <div role="message"></div>
+    </section>
+    <script src="script-dag.js"></script>
+</body>
+</html>
